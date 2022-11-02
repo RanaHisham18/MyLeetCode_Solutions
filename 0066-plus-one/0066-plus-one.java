@@ -11,6 +11,8 @@ class Solution {
     }
          int[] newList = new int [n+1];
    newList[0] = 1;
+        
+        //this two steps make the test case of 9 plus one works well.
     
     return newList;
         
